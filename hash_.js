@@ -32,7 +32,7 @@
         
    function box_ (_box)
    {
-         $( "content" ).append(`<div class="container"> <div class="row"> <div class="form-group"> <label for="_string">Name:</label> <input type="text" class="form-control" id="_string"> </div> <div class="form-group"> <button type="button" class="btn btn-primary" onClick="hash_('SHA-256', $('#_string').val())">SHA-256</button> <button type="button" class="btn btn-primary" onClick="hash_('SHA-512', $('#_string').val())">SHA-512</button> </div> <div id="_hash"> </div> </div> </div>`);   
+         $(_box).append(`<div class="container"> <div class="row"> <div class="form-group"> <label for="_string">Name:</label> <input type="text" class="form-control" id="_string"> </div> <div class="form-group"> <button type="button" class="btn btn-primary" onClick="hash_('SHA-256', $('#_string').val())">SHA-256</button> <button type="button" class="btn btn-primary" onClick="hash_('SHA-512', $('#_string').val())">SHA-512</button> </div> <div id="_hash"> </div> </div> </div>`);   
    }
    
 console.log("Loaded from Github@0hlybyte");
