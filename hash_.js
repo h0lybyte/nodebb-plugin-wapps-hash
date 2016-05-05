@@ -29,3 +29,4 @@
                   $('#_hash').text(digest);
               }); 
         }
+console.log("Loaded from Github@0hlybyte");
