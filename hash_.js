@@ -30,9 +30,11 @@
               }); 
         }
         
-   function box_ (_box)
+   function box_ ()
    {
-         $(`<div class="container"> <div class="row"> <div class="form-group"> <label for="_string">Name:</label> <input type="text" class="form-control" id="_string"> </div> <div class="form-group"> <button type="button" class="btn btn-primary" onClick="hash_('SHA-256', $('#_string').val())">SHA-256</button> <button type="button" class="btn btn-primary" onClick="hash_('SHA-512', $('#_string').val())">SHA-512</button> </div> <div id="_hash"> </div> </div> </div>`).appendTo($(_box));   
+             $(document).ready(function(){
+                           $(this).load('s1.htm'); 
+                   });
    }
    
 console.log("Loaded from Github@0hlybyte");
